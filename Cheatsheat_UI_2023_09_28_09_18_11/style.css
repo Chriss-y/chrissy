@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+canvas {
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+#ueberschrift {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: move 35s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 800vw;
+  }
+}
